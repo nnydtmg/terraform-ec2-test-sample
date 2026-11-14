@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: terraform
+    directory: /01-normal
+    schedule:
+      interval: weekly
+  - package-ecosystem: terraform
+    directory: /02-split-folder
+    schedule:
+      interval: weekly
